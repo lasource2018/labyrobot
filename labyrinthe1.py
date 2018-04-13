@@ -131,7 +131,7 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Frame des données
     dataFrame = Frame(root)
     # Partie 'Labyrinthe'
-    labyFrame = LabelFrame(dataFrame, text='Labyrinthe')
+    labyFrame = LabelFrame(dataFrame, text='LABYRINTHE')
     # Première ligne : largeur du labyrinthe
     lblLargeur = Label(labyFrame, text='Largeur')
     lblLargeur.grid(row=0, column=0)
@@ -152,7 +152,7 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Fin de la partie labyFrame
     labyFrame.grid(row=0, column=0, sticky=tkinter.N+tkinter.S)
     # Partie 'Entrée'
-    entreeFrame = LabelFrame(dataFrame, text='Entrée')
+    entreeFrame = LabelFrame(dataFrame, text='ENTREE')
     # Abscisse
     Label(entreeFrame, text="X").grid(row=0, column=0)
     EntreeX = Scale(entreeFrame, to=LARGEUR_DEF-1, showvalue=False, orient='h', command=xEntreeCmd)
@@ -170,7 +170,7 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Fin de la partie entreeFrame
     entreeFrame.grid(row=0, column=1, sticky=tkinter.N+tkinter.S)
     # Partie 'Sortie'
-    sortieFrame = LabelFrame(dataFrame, text='Sortie')
+    sortieFrame = LabelFrame(dataFrame, text='SORTIE')
     # Abscisse
     Label(sortieFrame, text="X").grid(row=0, column=0)
     SortieX = Scale(sortieFrame, to=LARGEUR_DEF-1, showvalue=False, orient='h', command=xSortieCmd)
@@ -188,7 +188,7 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Fin de la partie sortieFrame
     sortieFrame.grid(row=0, column=2, sticky=tkinter.N+tkinter.S)
     # Partie Algorithme
-    algoFrame = LabelFrame(dataFrame, text="Algorithme")
+    algoFrame = LabelFrame(dataFrame, text="ALGORITHME")
     # Première ligne : bouton main droite
     btnMainDroite = Button(algoFrame, text='Main Droite')
     btnMainDroite.grid(row = 0 , column = 3)
@@ -198,7 +198,7 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Fin de la partie Algorithme
     algoFrame.grid(row=0, column=3, sticky=tkinter.N+tkinter.S)
     # Partie Tracé du Labyrinthe
-    traceFrame = LabelFrame(dataFrame, text='Tracé du labyrinthe')
+    traceFrame = LabelFrame(dataFrame, text='TRACE DU LABYRINTHE')
     # Slider
     Label(traceFrame, text='Entrée').grid(row=0, column=0)
     Slider = Scale(traceFrame, showvalue=False, orient='v')
