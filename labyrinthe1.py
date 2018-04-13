@@ -187,6 +187,25 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     CoulSortieBtn.grid(row=2, column=1)
     # Fin de la partie sortieFrame
     sortieFrame.grid(row=0, column=2, sticky=tkinter.N+tkinter.S)
+    # Partie Algorithme
+    algoFrame = LabelFrame(dataFrame, text="Algorithme")
+    # Première ligne : bouton main droite
+    btnMainDroite = Button(algoFrame, text='Main Droite')
+    btnMainDroite.grid(row = 0 , column = 3)
+    # Deuxième ligne : bouton main gauche
+    btnMainGauche = Button(algoFrame, text='Main Gauche')
+    btnMainGauche.grid(row = 2 , column = 3)
+    # Fin de la partie Algorithme
+    algoFrame.grid(row=0, column=3, sticky=tkinter.N+tkinter.S)
+    # Partie Tracé du Labyrinthe
+    traceFrame = LabelFrame(dataFrame, text='Tracé du labyrinthe')
+    # Slider
+    Label(traceFrame, text='Entrée').grid(row=0, column=0)
+    Slider = Scale(traceFrame, showvalue=False, orient='v')
+    Slider.grid(row=1, column=0)
+    Label(traceFrame, text='Sortie').grid(row=2, column=0)
+    # Fin partie Tracé du Labyrinthe
+    traceFrame.grid(row=0, column=4)
     # Fin de la partie dataFrame et affichage
     dataFrame.grid(sticky=tkinter.W)
     # Fenêtre graphique (canvas)
