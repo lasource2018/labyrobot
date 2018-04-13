@@ -200,10 +200,12 @@ def creeInterface(a_largeur = 500, a_hauteur = 500) :
     # Partie Tracé du Labyrinthe
     traceFrame = LabelFrame(dataFrame, text='TRACE DU LABYRINTHE')
     # Slider
-    Label(traceFrame, text='Entrée').grid(row=0, column=0)
+    CoulEntSlider = Label(traceFrame, text='Entrée', fg=CoulEntree)
+    CoulEntSlider.grid(row=0, column=0)
     Slider = Scale(traceFrame, showvalue=False, orient='v')
     Slider.grid(row=1, column=0)
-    Label(traceFrame, text='Sortie').grid(row=2, column=0)
+    CoulSortSlider = Label(traceFrame, text='Sortie', fg=CoulSortie)
+    CoulSortSlider.grid(row=2, column=0)
     # Fin partie Tracé du Labyrinthe
     traceFrame.grid(row=0, column=4)
     # Fin de la partie dataFrame et affichage
