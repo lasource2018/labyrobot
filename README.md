@@ -2,10 +2,12 @@
 labyrinthe1.py : première version
   - Génération et tracé du labyrinthe
   - Interface Tk pour dimensionner la taille et lancer l'affichage
+
 Manque :
     - Lancement automatique de l'interface
     - Définition des positions entrée et sortie
     - Algorithme de recherche du chemin
+
 
 labyrinthe2.py : deuxième version
   - Démarrage automatique de l'interface Tk
