@@ -36,6 +36,7 @@ labyrinthe4.py : 4ème version
   - Changement du replay pour remplacer la turtle par le numéro de cellule (plus de problème de synchro)
   - Correction du bug de l'algorithme de sortie
   - Correction du bug sur le calcul de nombre de murs cibles
+  - Correction du bug sur la taille du scale du replay
 
 Problèmes :
   - Resize ne retrace pas le labyrinthe centré
