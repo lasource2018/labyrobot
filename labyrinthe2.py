@@ -21,7 +21,7 @@ import tkinter.constants
 TITRE = "Projet Labyrinthe"
 
 # Version
-VERSION = " v1.3"
+VERSION = " v1.2"
 
 # Texte d'aide
 AIDE = \
