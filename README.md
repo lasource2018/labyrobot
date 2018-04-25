@@ -44,3 +44,11 @@ Problèmes :
   - Le changement initial de la taille de cellule n'est pas pris en compte
   - Possibilité de cliquer sur 'Démarrer' sans avoir créé de labyrinthe 
 
+
+labyrinthe5.py : 5ème version
+  - Correction du resize pour retracer le labyrinthe centré
+  - Correction du bug pour prendre en compte le changement initial de la taille de cellule (avant le tracé)
+  - Correction pour que le bouton 'Démarrer' ne soit actif qu'après avoir créé un labyrinthe
+
+Manque :
+  - Changement interactif du type de paroi interne (mur ou ouverture)
