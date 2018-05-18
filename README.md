@@ -52,3 +52,18 @@ labyrinthe5.py : 5ème version
 
 Manque :
   - Changement interactif du type de paroi interne (mur ou ouverture)
+
+
+labyrinthe6.py : 6ème version
+  - Ajout de la vitesse de sortie
+  
+  
+labyrinthe7.py : 7ème version (finale)
+  - Correction du bug : la valeur finale du chemin n'apparaisait que lors de la première exécution du bouton 'Démarrer'
+  - Aide en ligne complétée
+  - Robustesse améliorée (valeurs mini et maxi testées pour les données largeur et hauteur)
+  - Clic pour ajouter ou supprimer des murs internes
+  - Calcul de temps et optimisation pour la création du labyrinthe
+  - Calcul du temps pour la sortie du labyrinthe
+  - Tests et corrections pour fonctionnement sans Tk
+  - Mise à jour de la valeur de la couleur dans les textes du bouton
